@@ -1,6 +1,7 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
 import { Button, Text, View } from 'react-native';
+import First from './src/components/First';
 
 const App = () => {
   return (
@@ -9,6 +10,11 @@ const App = () => {
       <Text style={{ fontSize: 30, color: '#fff' }}>Software Engineer</Text>
       <Text style={{ fontSize: 30, color: '#fff' }}>Mobile App Developer</Text>
       <Button title="Press here" />
+      <First />
+      <First />
+      <First />
+      <First />
+      <First />
     </View>
   );
 };
