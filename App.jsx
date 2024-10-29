@@ -1,20 +1,21 @@
-/* eslint-disable react-native/no-inline-styles */
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import { Button, Text, View } from 'react-native';
 import First from './src/components/First';
+import JSX from './src/components/JSX';
+import OnPress from './src/components/OnPress';
+import Props from './src/components/Props';
+import InputText from './src/components/InputText';
 
 const App = () => {
   return (
     <View>
-      <Text style={{ fontSize: 30, color: '#fff' }}>Name: Saqib</Text>
-      <Text style={{ fontSize: 30, color: '#fff' }}>Software Engineer</Text>
-      <Text style={{ fontSize: 30, color: '#fff' }}>Mobile App Developer</Text>
-      <Button title="Press here" />
-      <First />
-      <First />
-      <First />
-      <First />
-      <First />
+      {/* <Button title="Press here" /> */}
+      {/* <First /> */}
+      {/* <JSX /> */}
+      {/* <OnPress /> */}
+      {/* <Props /> */}
+      <InputText />
     </View>
   );
 };

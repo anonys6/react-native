@@ -1,9 +1,8 @@
-/* eslint-disable no-trailing-spaces */
 /* eslint-disable react-native/no-inline-styles */
 import { View, Text } from 'react-native';
 import React from 'react';
 
-const First = () => {
+const Child = (props) => {
     return (
         <View>
             <Text
@@ -12,11 +11,10 @@ const First = () => {
                     color: '#fff',
                 }}
             >
-
-                First Component
+                Child: {props.count}
             </Text>
         </View>
     );
 };
 
-export default First;
+export default Child;
