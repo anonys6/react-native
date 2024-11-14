@@ -1,23 +1,39 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { Button, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View } from 'react-native';
 import First from './src/components/First';
 import JSX from './src/components/JSX';
 import OnPress from './src/components/OnPress';
 import Props from './src/components/Props';
 import InputText from './src/components/InputText';
+import Styling from './src/components/Styling';
+import FlatList from './src/components/FlatListScreen';
+import FlatListScreen from './src/components/FlatListScreen';
+import SectionListScreen from './src/components/SectionListScreen';
+import Login from './src/components/Login';
 
 const App = () => {
   return (
-    <View>
+    <View style={styles.container}>
       {/* <Button title="Press here" /> */}
       {/* <First /> */}
       {/* <JSX /> */}
       {/* <OnPress /> */}
       {/* <Props /> */}
-      <InputText />
+      {/* <InputText /> */}
+      {/* <Styling /> */}
+      {/* <FlatListScreen /> */}
+      {/* <SectionListScreen /> */}
+      <Login />
     </View>
   );
 };
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center', // Center vertically
+    alignItems: 'center', // Center horizontally
+  },
+});
 
 export default App;
