@@ -11,6 +11,7 @@ import FlatList from './src/components/FlatListScreen';
 import FlatListScreen from './src/components/FlatListScreen';
 import SectionListScreen from './src/components/SectionListScreen';
 import Login from './src/components/Login';
+import ContactListScreen from './src/screens/ContactList/ContactListScreen';
 
 const App = () => {
   return (
@@ -24,7 +25,8 @@ const App = () => {
       {/* <Styling /> */}
       {/* <FlatListScreen /> */}
       {/* <SectionListScreen /> */}
-      <Login />
+      {/* <Login /> */}
+      <ContactListScreen />
     </View>
   );
 };
@@ -32,7 +34,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center', // Center vertically
-    alignItems: 'center', // Center horizontally
   },
 });
 
