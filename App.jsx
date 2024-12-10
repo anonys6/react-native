@@ -12,6 +12,8 @@ import FlatListScreen from './src/components/FlatListScreen';
 import SectionListScreen from './src/components/SectionListScreen';
 import Login from './src/components/Login';
 import ContactListScreen from './src/screens/ContactList/ContactListScreen';
+import Grid from './src/components/Grid';
+import Loader from './src/components/Loader';
 
 const App = () => {
   return (
@@ -26,14 +28,16 @@ const App = () => {
       {/* <FlatListScreen /> */}
       {/* <SectionListScreen /> */}
       {/* <Login /> */}
-      <ContactListScreen />
+      {/* <ContactListScreen /> */}
+      {/* <Grid /> */}
+      <Loader />
     </View>
   );
 };
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center', // Center vertically
+
   },
 });
 
