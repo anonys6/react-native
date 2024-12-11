@@ -18,6 +18,7 @@ import UseRef from './src/components/UseRef';
 import DialogModal from './src/components/DialogModal';
 import AlertExample from './src/components/AlertExample';
 import API_Get from './src/components/API_Get';
+import API_Post from './src/components/API_Post';
 
 const App = () => {
   return (
@@ -38,7 +39,8 @@ const App = () => {
       {/* <UseRef /> */}
       {/* <DialogModal /> */}
       {/* <AlertExample /> */}
-      <API_Get />
+      {/* <API_Get /> */}
+      <API_Post />
     </View>
   );
 };
