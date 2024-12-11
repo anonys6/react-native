@@ -11,7 +11,6 @@ const First = () => {
                     color: '#fff',
                 }}
             >
-
                 First Component
             </Text>
         </View>

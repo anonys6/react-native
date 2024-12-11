@@ -16,6 +16,7 @@ import Grid from './src/components/Grid';
 import Loader from './src/components/Loader';
 import UseRef from './src/components/UseRef';
 import DialogModal from './src/components/DialogModal';
+import AlertExample from './src/components/AlertExample';
 
 const App = () => {
   return (
@@ -34,7 +35,8 @@ const App = () => {
       {/* <Grid /> */}
       {/* <Loader /> */}
       {/* <UseRef /> */}
-      <DialogModal />
+      {/* <DialogModal /> */}
+      <AlertExample />
     </View>
   );
 };
