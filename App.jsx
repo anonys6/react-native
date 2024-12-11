@@ -14,6 +14,8 @@ import Login from './src/components/Login';
 import ContactListScreen from './src/screens/ContactList/ContactListScreen';
 import Grid from './src/components/Grid';
 import Loader from './src/components/Loader';
+import UseRef from './src/components/UseRef';
+import DialogModal from './src/components/DialogModal';
 
 const App = () => {
   return (
@@ -30,7 +32,9 @@ const App = () => {
       {/* <Login /> */}
       {/* <ContactListScreen /> */}
       {/* <Grid /> */}
-      <Loader />
+      {/* <Loader /> */}
+      {/* <UseRef /> */}
+      <DialogModal />
     </View>
   );
 };
